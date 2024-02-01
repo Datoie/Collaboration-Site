@@ -20,14 +20,9 @@
     </div>
     <!-- bottom section -->
     <div class="bottom">
-      <div class="container">
-        <div class="heading-bottom">
-          <div class="heading-container">
-            <h2>100k Pageviews</h2>
-            <div class="dollar-container">
-              <h3>$<span class="number">0</span>.00 &nbsp<span>/ month</span></h3>
-            </div>
-          </div>
+      <div class="form-contianer">
+          <h2>100k Pageviews</h2>
+          <h3>$<span class="number">0</span>.00 &nbsp<span id="month">/ month</span></h3>
           <!-- slider -->
           <form>
             <!-- slider contianer -->
@@ -35,18 +30,20 @@
               <!-- slider button -->
               <input type="range"  id="slider" value="0">
             </div>
-              <!-- privacy container bottom of slider -->
-            <div class="privacy-container">
-              <h3>Monthly Billing</h3>
-              <div class="checkbox-container">
-                <div class="ceckbox-box"></div>
-              </div>
-              <h3>Yearly Billing</h3>
-              <h4> Yearly Billing 25% discount</h4>
-            </div>
           </form>
+        </div>
+        <div class="privacy-container">
+          <h3>Monthly Billing</h3>
+          <label class="switch">
+            <input type="checkbox" checked>
+            <span class="slider round"></span>
+          </label>
+          <h4> Yearly Billing</h4>
+          <h5>25% discount</h5>
+        </div>
+          <div class="line"></div>
           <!-- privacy rules -->
-          <div class="container">
+          <div class="bottom-container">
             <ul>
               <li>Unlimited websites</li>
               <li>100% data ownership</li>
@@ -57,7 +54,6 @@
         </div>
       </div>
     </div>
-  </div>
 
   <script src="script.js"></script>
 </body>
