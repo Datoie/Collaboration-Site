@@ -69,21 +69,4 @@ body{
   font-weight: 600;
 }
 
-.input-container{
-  background-color: aqua;
-  border-radius: 10px;
-  height: 10px;
-  position: relative;
-}
-.box{
-  position: absolute;
-  left: 50%;
-  bottom: -16px;
-  background-color: rgb(76, 180, 180);
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
